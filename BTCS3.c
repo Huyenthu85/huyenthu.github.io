@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include<time.h>
+#include <stdbool.h>
+void Sift(int a[], int p, int q, int *ss);
+void Partition(int a[], int p, int q, int *ss, int *hv);
 void Taomang(int a[], int n)
 {
 	for (int i = 0; i < n; i++)
@@ -21,7 +24,7 @@ void Hoanvi(int *a,int *b,int *hv)
     int t=*a;
         *a=*b;
         *b=t;
-        (*hv)++;
+    (*hv)++;
 }
 void interchange(int a[],int n)
 {
@@ -40,13 +43,12 @@ void interchange(int a[],int n)
     }
     printf("Interchange Sort - So sanh: %d, Hoan vi: %d\n", ss, hv);
 }
-int minx(int a[],int x,int n)
+int minx(int a[],int x,int n, int *ss)
 {
     int min=x;
-    int ss=0;
     for(int i=x+1;i<n;i++)
     {
-        ss++;
+        (*ss)++;
        if(a[i]<a[min])
        {
            min=i;
@@ -60,7 +62,7 @@ void selection(int a[],int n)
     int ss=0;
   for(int i=0;i<n;i++)
   {
-    int b=minx(a,i,n);
+    int b=minx(a,i,n,&ss);
     {
         Hoanvi(&a[i],&a[b],&hv);
     }
@@ -151,10 +153,10 @@ void QuickSort(int a[], int n)
 {
     int ss=0;
     int hv=0;
-    Partition(a, 0, n-1,&ss,&hv);
+    Partition(a, 0, n-1, &ss, &hv);
     printf("Quick Sort - So sanh: %d, Hoan vi: %d\n", ss, hv);
 }
-void Partition(int a[], int p, int q ,int &hv,int &ss)
+void Partition(int a[], int p, int q ,int *ss,int *hv)
 {
     int x=a[(p+q)/2];
     int i=p;
@@ -164,16 +166,16 @@ void Partition(int a[], int p, int q ,int &hv,int &ss)
         while(a[i]<x)
         {
             i++;
-            ss++;
+            (*ss)++;
         }
         while(a[j]>x)
         {
             j--;
-            ss++;
+            (*ss)++;
         }
         if(i<=j)
         {
-            Hoanvi(a[i],a[j],hv);
+            Hoanvi(&a[i],&a[j],&hv);
             i++;
             j--;
         }
@@ -190,10 +192,16 @@ void Partition(int a[], int p, int q ,int &hv,int &ss)
 }
 double Time(void (*sortFunction)(int[], int), int a[], int n)
 {
+    int *temp = (int *)malloc(n * sizeof(int));
+    for (int i = 0; i < n; i++)
+    {
+        temp[i] = a[i];
+    }
     clock_t bd, kt;
     bd = clock();
     sortFunction(a, n);
     kt = clock();
+    free(temp);
     return ((double)(kt - bd)) / CLOCKS_PER_SEC;
 }
 void ThucNghiem(void (*sortFunction)(int[], int), char *sortName) 
