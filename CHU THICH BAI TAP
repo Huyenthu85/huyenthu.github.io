@@ -1,1 +1,16 @@
+-Tuần 1-
+BÀI 1. BỘ BA (BOBA.*)
+Cho một xâu văn bản chỉ gồm các chữ cái la tinh in hoa. Ta gọi một bộ ba là dãy gồm ba chữ cái latinh in hoa liên tiếp trong xâu.Hãy tìm số lần xuất hiện của bộ ba xuất hiện nhiều nhất như là xâu con gồm 3 ký tự liên tiếp trong xâu văn bản đã cho.
+Ví dụ: Trong xâu văn bản ‘DAIHOCKHOAHOCTUNHIENTHANHPHOHOCHIMINH’ xâu con
+‘HOC’ xuất hiện nhiều nhất (3 lần), còn trong xâu văn bản ‘AAAAAD’ xâu ‘AAA’ xuất hiện nhiều nhất (3 lần).
+Dữ liệu: Vào từ bàn phím gồm:
+• Dòng đầu tiên chứa số nguyên T - số lượng Tests (1 ≤ T ≤ 10),
+• T dòng tiếp theo, mỗi dòng chứa thông tin về một test, gồm một xâu văn bản gồm không quá 106
+chữ cái la tinh in hoa.
+Kết quả: Ghi ra màn hình gồm T dòng, mỗi dòng chứa một số nguyên. Dòng thứ i chứa kết quả tương ứng với Test thứ i (i = 1÷T) là số lần xuất hiện nhiều nhất tìm được.
+1.Ý tưởng thực hiện :
+  Nhập số lượng test.
+  Với mỗi chuỗi: duyệt qua tất cả các bộ ba liên tiếp, đếm số lần xuất hiện bằng dict.
+  Lấy giá trị đếm lớn nhất và lưu vào kq.
+  Sau cùng in ra tất cả kết quả. 
 
