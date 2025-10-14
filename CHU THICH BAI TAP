@@ -1,5 +1,5 @@
--Tuần 1-
-**BÀI 1. BỘ BA (BOBA.*)**
+<h1>-Tuần 1-</h1>
+<b>BÀI 1. BỘ BA (BOBA.*)</b>
 Cho một xâu văn bản chỉ gồm các chữ cái la tinh in hoa. Ta gọi một bộ ba là dãy gồm ba chữ cái latinh in hoa liên tiếp trong xâu.Hãy tìm số lần xuất hiện của bộ ba xuất hiện nhiều nhất như là xâu con gồm 3 ký tự liên tiếp trong xâu văn bản đã cho.
 Ví dụ: Trong xâu văn bản ‘DAIHOCKHOAHOCTUNHIENTHANHPHOHOCHIMINH’ xâu con
 ‘HOC’ xuất hiện nhiều nhất (3 lần), còn trong xâu văn bản ‘AAAAAD’ xâu ‘AAA’ xuất hiện nhiều nhất (3 lần).
