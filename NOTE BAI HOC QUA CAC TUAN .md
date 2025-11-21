@@ -59,3 +59,90 @@ Số 0=N/5 + N/25 + N/125 +...
 (lấy phần nguyên).  
 Dừng khi 5k>N
 # -Tuần 2-
+## Bài 1
+### (a)
+ Cho đơn đồ thị G, m=21 cạnh, mọi đỉnh bậc 3.
+Định lý bắt tay: ∑deg(v) = 2m = 42.
+Vì mọi đỉnh đều bậc 3 nên: 3n = 42 => n = 14
+Vậy G có 14 đỉnh.
+### (b)
+ Cho đơn đồ thị G, m=15, có 3 đỉnh bậc 4, các đỉnh còn lại bậc 3.
+∑deg(v) = 2m = 30.
+3 đỉnh bậc 4 => tổng bậc = 12.
+Gọi số đỉnh còn lại = n−3, mỗi đỉnh bậc 3 => tổng bậc = 3(n−3).
+Vậy: 12 + 3(n−3) = 30 => 3n + 3 = 30 => 3n = 27 => n = 9.
+Suy ra G có 9 đỉnh.
+### (c) 
+Đồ thị vô hướng, m=14, có 2 đỉnh bậc 5, các đỉnh còn lại bậc 3.
+∑deg(v) = 2m = 28.
+2 đỉnh bậc 5 => tổng bậc = 10.
+Gọi số đỉnh còn lại = n−2, mỗi đỉnh bậc 3 => tổng bậc = 3(n−2).
+Vậy: 10 + 3(n−2) = 28 => 3n + 4 = 28 => 3n = 24 => n=8.
+Suy ra G có 8 đỉnh.
+### (d)
+ Đồ thị vô hướng, m=22, bậc mỗi đỉnh ≥ 3. Tìm số đỉnh lớn nhất.
+∑deg(v) = 2m = 44.
+Nếu tất cả đỉnh bậc ≥ 3 => 3n≤44 => n ≤ 14.
+Vậy số đỉnh lớn nhất là 14.
+## Bài 2
+### (a)
+Đồ thị phẳng liên thông G, m=26, chia thành 14 miền.
+Tìm số đỉnh.
+Công thức Euler: n − m + f = 2 .
+n − 26 +14 = 2 => n = 14.
+Vậy G có 14 đỉnh.
+### (b)
+Đồ thị phẳng liên thông có m cạnh, n đỉnh, k miền.
+Công thức Euler: n − m + k = 2 => k = m − n + 2.
+Biểu diễn bằng n,m,k: k=m−n+2.
+### (c)
+ Đồ thị hai phía G = (v1∪v2, E), |v1|= n1,  |v2| = n2.
+Mỗi cạnh nối 1 đỉnh ở v1 với 1 đỉnh ở v2.
+Số cạnh nhiều nhất = mọi cặp (u,v), u thuộc v1, v thuộc v2
+Do đó: m ≤ n1.n2
+Điều phải chứng minh
+## Bài 3
+### (a) 
+Đơn đồ thị vô hướng G, n≥2
+Tổng bậc = 2m (số chẵn).
+Nếu tất cả đỉnh đều có bậc khác nhau => bậc tối thiểu 0, tối đa n−1. Tổng
+bậc khi đó = 0+1+2+...+(n−1) = n(n−1) / 2
+Với n≥2n, biểu thức này có thể lẻ => mâu thuẫn.
+Vậy luôn tồn tại ít nhất 2 đỉnh có cùng bậc.
+### (b)
+ Đồ thị G và G′ trong hình (Khai triển 2 đồ thị giống nhau).
+Đều có cùng số đỉnh, cùng số cạnh, cùng phân bố bậc.
+Chỉ khác cách vẽ, nhưng vẫn có song ánh bảo toàn kề.
+Vậy G và G’ đẳng cấu.
+### (c)
+ Đơn đồ thị vô hướng n đỉnh, n ≥ 2.
+Giả sử mọi cặp đỉnh bất kỳ có tổng bậc ≤ n−2.
+Tổng tất cả bậc ≤   n(n−2) / 2 = n(n−2) / 2.
+Nhưng ∑deg(v)=2m =>  m ≤ n(n−2)/4.
+Điều này trái với yêu cầu của đồ thị liên thông khi số cạnh lớn.
+Vậy luôn tồn tại 2 đỉnh bất kỳ có tổng bậc  ≥  n-1.
+### (d)
+ Đồ thị vô hướng m=24, có 5 đỉnh bậc 2, các đỉnh còn lại bậc ≥ 3.
+∑deg(v) = 2m = 48.
+5 đỉnh bậc 2 => tổng bậc = 10.
+Gọi số đỉnh còn lại = n−5, mỗi đỉnh ≥ 3 => tổng bậc ≥ 3(n−5).
+Khi đó:10 + 3(n−5) ≤ 48 => 3n − 5 ≤ 48 => n ≤ 53/3 = 17.67.
+Vậy n≤17.
+=> Đồ thị có nhiều nhất 17 đỉnh.
+## Bài 4
+### (a) 
+Đơn đồ thị vô hướng có số cạnh = số đỉnh
+Theo Euler: n−m+f=2
+Nếu n=m, => f=2. => Có ít nhất 1 chu trình.
+### (b)
+ Đơn đồ thị vô hướng n≥3n. Nếu bậc mỗi đỉnh ≥ n−1/2.​.
+Sử dụng định lý Dirac (về liên thông Hamilton): Nếu mọi đỉnh có bậc ≥ n/2 thì có chu trình Hamilton ⇒ tất nhiên liên thông.
+Ở đây điều kiện yếu hơn, nhưng vẫn đảm bảo liên thông vì bậc lớn khiến đồ thị kết nối chặt chẽ
+### (c)
+ Đồ thị vô hướng có đúng 2 đỉnh bậc lẻ u,v.
+Định lý Euler: Trong đồ thị vô hướng, số đỉnh bậc lẻ luôn chẵn.
+Nếu chỉ có 2 đỉnh bậc lẻ ⇒ tồn tại đường đi Euler từ u đến v.
+### (d)
+ Chứng minh: Đơn đồ thị vô hướng n đỉnh liên thông, nhiều hơn (n−1)(n−2)/2 cạnh ⇒ liên thông.
+Vì nếu không liên thông, tách ra thành 2 thành phần ⇒ số cạnh tối đa ≤ (n−1)(n−2)2\frac{(n-1)(n-2)}{2}2(n−1)(n−2)​.
+Mâu thuẫn ⇒ đồ thị phải liên thông.
