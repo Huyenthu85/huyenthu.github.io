@@ -1,0 +1,16 @@
+Ma NV: BH02
+Ho ten: Nguyen
+Nam sinh: 2000
+Dia chi: TPHCM
+So gio lam: 200
+Loai: Nhanvienbanhang
+Luong: 5017000.0
+---------------------------
+Ma NV: PC03
+Ho ten: Tuyen
+Nam sinh: 2001
+Dia chi: TPHCM
+So gio lam: 180
+Loai: Nhanvienphache
+Luong: 5400001.1
+---------------------------

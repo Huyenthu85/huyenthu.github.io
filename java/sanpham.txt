@@ -1,0 +1,120 @@
+Ma SP: M01
+Ten SP: Burger Bo
+Don gia: 40000.0
+Don vi tinh: Phan
+So luong ton kho: 0
+Trang thai: Dang ban
+Gia tinh toan: 64000.0
+---------------------------
+Ma SP: M02
+Ten SP: Burger Ga
+Don gia: 45000.0
+Don vi tinh: Phan
+So luong ton kho: 0
+Trang thai: Dang ban
+Gia tinh toan: 69500.0
+---------------------------
+Ma SP: M03
+Ten SP: Pizza Hai San
+Don gia: 85000.0
+Don vi tinh: Cai
+So luong ton kho: 0
+Trang thai: Dang ban
+Gia tinh toan: 123500.00000000001
+---------------------------
+Ma SP: M04
+Ten SP: Mi Y Sot Bo
+Don gia: 60000.0
+Don vi tinh: Dia
+So luong ton kho: 0
+Trang thai: Dang ban
+Gia tinh toan: 86000.0
+---------------------------
+Ma SP: M05
+Ten SP: Salad Rau Cu
+Don gia: 45000.0
+Don vi tinh: Dia
+So luong ton kho: 5
+Trang thai: Dang ban
+Gia tinh toan: 69500.0
+---------------------------
+Ma SP: T01
+Ten SP: Ca Phe Sua
+Don gia: 39000.0
+Don vi tinh: Ly
+So luong ton kho: 0
+Trang thai: Dang ban
+Gia tinh toan: 52900.0
+---------------------------
+Ma SP: T02
+Ten SP: Tra Sua Tran Chau
+Don gia: 45000.0
+Don vi tinh: Ly
+So luong ton kho: 0
+Trang thai: Dang ban
+Gia tinh toan: 64500.00000000001
+---------------------------
+Ma SP: T03
+Ten SP: Sinh To Xoai
+Don gia: 25000.0
+Don vi tinh: Ly
+So luong ton kho: 0
+Trang thai: Dang ban
+Gia tinh toan: 37500.0
+---------------------------
+Ma SP: T04
+Ten SP: Sting
+Don gia: 15000.0
+Don vi tinh: Ly
+So luong ton kho: 70
+Trang thai: Dang ban
+Gia tinh toan: 21500.0
+---------------------------
+Ma SP: T05
+Ten SP: Nuoc suoi
+Don gia: 10000.0
+Don vi tinh: Ly
+So luong ton kho: 80
+Trang thai: Dang ban
+Gia tinh toan: 16000.0
+---------------------------
+Ma SP: C01
+Ten SP: Combo Burger + Coffee
+Don gia: 70000.0
+Don vi tinh: Combo
+So luong ton kho: 0
+Trang thai: Dang ban
+Gia tinh toan: 70000.0
+---------------------------
+Ma SP: C02
+Ten SP: Combo Pizza + Sting
+Don gia: 90000.0
+Don vi tinh: Combo
+So luong ton kho: 0
+Trang thai: Dang ban
+Gia tinh toan: 90000.0
+---------------------------
+Ma SP: C03
+Ten SP: Combo Mi Y + Ca Phe
+Don gia: 90000.0
+Don vi tinh: Combo
+So luong ton kho: 0
+Trang thai: Dang ban
+Gia tinh toan: 90000.0
+---------------------------
+Ma SP: C04
+Ten SP: Combo Salad + Sinh to
+Don gia: 50000.0
+Don vi tinh: Combo
+So luong ton kho: 0
+Trang thai: Dang ban
+Gia tinh toan: 50000.0
+---------------------------
+Ma SP: C05
+Ten SP: Combo Burger + Tra Sua
+Don gia: 80000.0
+Don vi tinh: Combo
+So luong ton kho: 0
+Trang thai: Dang ban
+Gia tinh toan: 80000.0
+---------------------------

@@ -1,0 +1,4 @@
+interface Luong 
+{
+    double luong();
+}
